@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="input.css">
+    <title>Groceries Store</title>
+    
+</head>
+<body class="bg-black container">
+   <nav class="flex justify-around items-center mt-3">
+    <img class="w-32 cursor-pointer" src="./images/logo.png" alt="">
+    <ul class="text-white flex sm:space-x-1 md:space-x-4 lg:space-x-5 xl:space-x-6">
+        <li class="cursor-pointer hover:text-pink-600">Home</li>
+        <li class="cursor-pointer hover:text-pink-600">About</li>
+        <li class="cursor-pointer hover:text-pink-600">Features</li>
+        <li class="cursor-pointer hover:text-pink-600">Contact</li>
+    </ul>
+    <img class="w-8 cursor-pointer hover:translate-x-1 hover:translate-y-1" src="./images/cart.png" alt="">
+   </nav>
+
+   <div class="main text-white flex justify-around items-center">
+    <div class="left ml-20">
+         <h1 class="text-4xl font-semibold">Groceries</h1>
+         <h2 class="text-4xl font-semibold">Delivery in<span class="text-4xl font-light"> 15 mins</span></h2>
+         <p class="text-xs mt-1 mb-8">Grocify offer a wide range of products, including fresh products, meats, dairy, baked goods and non-pershable items.</p>
+         <button class="bg-yellow-500 border border-transparent hover:bg-transparent hover:text-white hover:border-yellow-300 hover:border text-black py-2 px-4 rounded-full"> Order Now </button>
+         <button class="mx-2 bg-transparent border border-transparent hover:bg-black text-white px-4 py-2 hover:border-2 hover:border-white hover:border-transparent rounded">
+            Download App
+          </button>
+    </div>
+    <div class="right mr-20">
+      <img class="h-[90vh]" src="./images/grocery-image.png" alt="">
+    </div>
+   </div>
+</body>
+</html>
